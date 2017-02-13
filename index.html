@@ -2,45 +2,52 @@
 <html>
 <head>
 	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="style.css" type="text/css">
 	<title>K. Sabbak</title>
 </head>
 <body>
 	<nav>
-	<ul>
-		<li><a href=resume.html>Resume</a></li>
-	</ul>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="resume.html">Resume</a></li>
+		</ul>
 	</nav>
-	<h1>K. Sabbak</h1>
-	<div>
-	<img src=images/klogo.png alt="Metal stamped letter K surrounded by blue, green and purple beads" width="410" height="308">
-	<p> Aspiring junior developer.</p>
+	<div id="intro_section">
+		<img src=images/klogo.png alt="Metal stamped letter K surrounded by blue, green and purple beads" id="klogo">
+		<h1>K. Sabbak</h1>
+		<p> Aspiring junior developer.</p>
 	</div>
-	<div>
-	<h1>Around the Web:</h1>
-	<ul>
-		<li><a href="https://github.com/ksabbak">GitHub</a></li>
-		<li><a href="http://www.linkedin.com/in/ksabbak">LinkedIn</a></li>
-		<li><a href="https://twitter.com/K_Sabbak">Twitter</a></li>
-	</ul>
+	
+	<div id="links">
+		<!-- Do I even like this heading anymore? 
+		<h2>Around the Web:</h2>
+		-->
+		<ul>
+			<li><a href="https://github.com/ksabbak">GitHub</a></li>
+			<li><a href="http://www.linkedin.com/in/ksabbak">LinkedIn</a></li>
+			<li><a href="https://twitter.com/K_Sabbak">Twitter</a></li>
+		</ul>
 	</div>
-	<div>
-	<!--Procrastinating is for me, apparently. I need to stop.-->
-	<h1>Apps</h1>
-	<table>
-		<tr>
-			<th>App</th>
-			<th>Icon</th>
-			<th>Description</th>
-		</tr>
-		<tr>
-			<td><a href="https://itunes.apple.com/is/app/fridgedoors/id1090168402?mt=8">FridgeDoors</a></td>
-			<td><img src="images/fridgedooricon.png" alt="FridgeDoor app icon, milk carton and apple on blue background" width="25" height="25"></td>
-			<td>A collaborative shopping list app. Never forget something again or accidentally have everyone in your household bring home the same thing.</td>
-		</tr>
-	</table>	
+	
+	<div id="apps">
+	<h2>Apps</h2>
+		<table>
+			<tr>
+				<th>App</th>
+				<th>Icon</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td><a href="https://itunes.apple.com/is/app/fridgedoors/id1090168402?mt=8">FridgeDoors</a></td>
+				<td><img src="images/fridgedooricon.png" alt="FridgeDoor app icon, milk carton and apple on blue background" width="25" height="25"></td>
+				<td class="description">A collaborative shopping list app. Never forget something again or accidentally have everyone in your household bring home the same thing.</td>
+			</tr>
+		</table>	
 	</div>
+	
+<!--  PART OF THE OLD SITE. UGLY AND NOT WANTED REALLY.	
 	<div>
 	<p>Here's a website of my friend <a href="http://www.allieq.com/">Allie Querengesser</a>. It's pretty good? I'm not a huge fan of the purple on purple, but lbr here, that's not an html issue. The honeycomb is neat, but that's clearly JavaScript. I'ma guess there was a WYSIWYG involved in making this because there's a lot of tags that seem not very her, but then again, there are some <code>&lt;br></code> (line break) tags hanging out which is, in my experience less common. Then again, I have <em>no</em> idea what I'm talking about. Viewing source interestingly enough doesn't actually take me to what I was expecting, but inspecting does. Lots of <code>&lt;div></code> elements with CSS tagging. There are some <code>&lt;style></code> elements, which I assume is like CSS without the cascading and the sheet. </p>
-	</div>
+	</div> -->
 </body>
 </html>
