@@ -1,0 +1,123 @@
+body {
+	background-image: url('images/fancybg.png');
+	background-attachment: fixed;
+
+	max-width: 1000px;
+	min-width: 500px;
+	padding-left: 2%;
+
+	font-family: sans-serif;
+	color: #106;
+}
+
+#intro_section {
+	text-align: center;
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: 7%;
+	padding-right: 1%;
+	width: 30%;
+}
+
+#links {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 6%;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	padding-left: 3%;
+	width: 30%;
+	border-left: 2px #106 solid;
+}
+
+#apps {
+	margin: auto;
+	width: 90%
+}
+
+#klogo {
+	height: 40%;
+	width: 40%;
+}
+
+h1 {
+	font-family: Magik, serif;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+table {
+	max-width: 60%;
+	border: 1px solid #318;
+	margin: auto;
+}
+
+td, tr, th {
+	border: 1px solid #318;
+	padding: 5px;
+}
+
+/*I know this is supposed to be a few elements
+But right now I only have one app. This is a 
+class because I'm planning for the future.*/
+
+td.description {
+	font-size: 0.9em;
+}
+
+
+#links>ul {
+	list-style: circle;
+	/*font-size: 1.2em;*/
+}
+
+a {
+	text-decoration: none;
+	font-style: italic;
+	color: #439;
+}
+
+a:visited {
+	color: darkgray;
+}
+
+a:hover {
+	color: #75B;
+	/*text-decoration: underline;*/
+	font-style: normal;
+}
+
+nav>ul>li {
+	display: inline;
+}
+
+nav>ul>li>a {
+	display: inline-block;
+	background-color: #DCF;
+	padding: 1% 5% 1% 5%;
+	border: 1px #106 solid;
+}
+
+nav>ul>li>a:hover {
+	background-color: transparent;
+}
+nav>ul>li>a:visited {
+	color: #106;
+}
+
+nav {
+	display: block;
+	width: 80%;
+	margin: auto;
+	margin-top: 2%;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 500px) {
+#intro_section, #apps, table, nav {
+	margin-left: 2%;
+}
+}
